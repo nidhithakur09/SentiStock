@@ -1,0 +1,10 @@
+create database SentiStock;
+use SentiStock;
+
+create table SS_News (ss_news_id LONGTEXT,ss_source LONGTEXT, ss_link LONGTEXT,  ss_time DATETIME ,ss_entry_time DATETIME , ss_title LONGTEXT, ss_image_link LONGTEXT, ss_description LONGTEXT, ss_sentiments LONGTEXT, ss_symbol LONGTEXT, ss_category LONGTEXT,ss_full_description LONGTEXT);
+
+create table SS_News_All (ss_parent_id LONGTEXT,ss_news_id LONGTEXT,ss_source LONGTEXT,ss_link LONGTEXT,ss_time DATETIME,ss_entry_time DATETIME,ss_title LONGTEXT,ss_image_link LONGTEXT,ss_description LONGTEXT,ss_sentiments LONGTEXT,ss_symbol LONGTEXT,ss_category LONGTEXT,ss_full_description LONGTEXT);
+
+create table SS_News_Attention (ss_total_count DOUBLE, ss_sum DOUBLE, ss_square_sum DOUBLE, ss_c_count DOUBLE, ss_symbol LONGTEXT, ss_zscore DOUBLE);
+
+create table SS_User (username LONGTEXT, password LONGTEXT);

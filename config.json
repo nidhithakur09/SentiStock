@@ -1,0 +1,18 @@
+{
+    "sql": {
+        "main": {
+            "host": "localhost",
+            "user": "root",
+            "passwd": "universe7712",
+            "database": "SentiStock"
+        },
+        "test": {
+            "host": "localhost",
+            "user": "root",
+            "passwd": "universe7712",
+            "database": "SentiStock"
+        },
+        "train_data": "Rupee_News_All",
+        "fetched_news": "news"
+    }
+}

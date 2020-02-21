@@ -1,0 +1,26 @@
+CREATE TABLE SimilarNewss(
+	parent_id TEXT,
+	hash_id TEXT,
+	title TEXT,
+	insertion_time TEXT,
+	description TEXT,
+	link TEXT,
+	Newsdate TEXT,
+	imagesrc TEXT,
+	sent TEXT,
+	symbol TEXT
+);
+
+
+
+SELECT n.title parent ,sn.title  child FROM PythonNews.similarNews sn, PythonNews.news n where sn.parent_id=n.hash_id ;
+
+
+
+SELECT n.text parent ,sn.text  child FROM PythonNews.SimilarTweets sn, PythonNews.TweetsNews n where sn.id =n.parent_id ;
+
+
+SELECT n.rn_title as parent ,sn.rn_title as child, n.rn_source as p_source, sn.rn_source as c_source FROM NewsField.Rupee_Similar_News sn, NewsField.Rupee_News_All n where sn.rn_parent_id=n.rn_news_id and rn_insertion_time > '2019-07-10 16:46:34';
+
+
+to find duplicates - SELECT rn_title FROM NewsField.Rupee_News_All GROUP BY rn_title HAVING (COUNT(*)>1);

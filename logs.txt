@@ -1,0 +1,77 @@
+Start  :  Wed Jul 10 15:27:04 2019
+total No of Newsfeeds: 77
+url count: 0
+MySQL connection is closed
+1 record inserted.
+url count: 1
+MySQL connection is closed
+1 record inserted.
+url count: 2
+MySQL connection is closed
+1 record inserted.
+url count: 3
+MySQL connection is closed
+1 record inserted.
+url count: 4
+MySQL connection is closed
+1 record inserted.
+url count: 5
+MySQL connection is closed
+1 record inserted.
+url count: 6
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 7
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 8
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 9
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 10
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 11
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 12
+MySQL connection is closed
+MySQL connection is closed
+MySQL connection is closed
+MySQL connection is closed
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 13
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 14
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 15
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 16
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 17
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 18
+MySQL connection is closed
+MySQL connection is closed
+2 record inserted.
+url count: 19

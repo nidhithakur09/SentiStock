@@ -1,0 +1,5 @@
+*.zip
+*.sav
+/__pycache__/*
+/server_code/node_modules/*
+*.out

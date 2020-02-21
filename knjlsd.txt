@@ -1,0 +1,9 @@
+ts = pd.Timestamp(year=int(temp1[0]), month=int(temp1[1]), day=int(temp1[2]), hour=int(temp2[0]), minute=int(temp2[1]), second=int(temp2[2]), tz='utc')
+ts = ts.to_julian_date()
+cts = pd.Timestamp(year=1990, month=1, day=1, hour=0, minute=0,second=0, tz='utc')
+cts = cts.now() - pd.Timedelta('1 day')
+cts=int(cts.to_julian_date())
+if(ts<cts):
+    flag=1
+else:
+    flag=0
