@@ -5,7 +5,7 @@ fuzzywuzzy==0.17.0
 mysql==0.0.2
 mysql-connector==2.2.9
 mysqlclient==1.4.2.post1
-nltk==3.4
+nltk==3.4.5
 numpy==1.16.2
 pandas==0.24.2
 pandocfilters==1.4.2
